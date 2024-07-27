@@ -1,4 +1,4 @@
-name: deploy.yml
+name: main.yml
 
 on:
   push:
