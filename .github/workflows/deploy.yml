@@ -1,4 +1,4 @@
-name: Node.js CI
+name: deploy.yml
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
     - name: Install libraries
       run: npm install
 
-    - name: Start Suhail-Md
+    - name: Start Suhail
     
       env:
           OWNER_NAME: 
